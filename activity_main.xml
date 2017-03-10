@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="digiyvonnelau.project1business.MainActivity">
+
+
+    <ImageView
+        android:id="@+id/img_hb_logo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/hb_logo"
+        android:scaleType="centerCrop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="400dp"
+        android:layout_height="70dp"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_toRightOf="@id/img_hb_logo"
+        android:textSize="28sp"
+
+        android:text="Honey Badger Coaching Facility "/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="450dp"
+        android:layout_height="25dp"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/text1"
+        android:layout_alignParentLeft="true"
+        android:textSize="18sp"
+        android:paddingLeft="8dp"
+        android:text="We offer unique fitness programs and facility"/>
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="450dp"
+        android:layout_height="25dp"
+        android:background="#000000"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_below="@id/text2"
+        android:layout_alignParentLeft="true"
+        android:textSize="18sp"
+        android:paddingLeft="8dp"
+        android:text="Visit us at http://badgerfitness.net"/>
+
+
+    <ImageView
+
+        android:layout_width="360dp"
+        android:layout_height="360dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_habit3"
+        android:layout_below="@id/text3"
+          android:layout_centerInParent="true"
+    />
+
+</RelativeLayout>
